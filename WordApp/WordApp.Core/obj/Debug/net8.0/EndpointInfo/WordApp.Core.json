@@ -1,0 +1,448 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WordApp.Core",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Vocable/GetAllAsync": {
+      "get": {
+        "tags": [
+          "Vocable"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReadVocableDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReadVocableDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReadVocableDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vocable/GetAsync": {
+      "get": {
+        "tags": [
+          "Vocable"
+        ],
+        "parameters": [
+          {
+            "name": "vocableId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vocable/CreateAsync": {
+      "post": {
+        "tags": [
+          "Vocable"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateVocableDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateVocableDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateVocableDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vocable/UpdateAsync": {
+      "put": {
+        "tags": [
+          "Vocable"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateVocableDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateVocableDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateVocableDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadVocableDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vocable/DeleteByIdAsync": {
+      "delete": {
+        "tags": [
+          "Vocable"
+        ],
+        "parameters": [
+          {
+            "name": "vocableId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vocable/DeleteAsync": {
+      "delete": {
+        "tags": [
+          "Vocable"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteVocableDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteVocableDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteVocableDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateVocableDto": {
+        "type": "object",
+        "properties": {
+          "word": {
+            "type": "string",
+            "nullable": true
+          },
+          "meanings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "pronunciation": {
+            "type": "string",
+            "nullable": true
+          },
+          "wordType": {
+            "$ref": "#/components/schemas/WordType"
+          },
+          "wordLevel": {
+            "$ref": "#/components/schemas/WordLevel"
+          },
+          "wordCountability": {
+            "$ref": "#/components/schemas/WordCountability"
+          },
+          "wordHalleri": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteVocableDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReadVocableDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "createTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "word": {
+            "type": "string",
+            "nullable": true
+          },
+          "meanings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "pronunciation": {
+            "type": "string",
+            "nullable": true
+          },
+          "wordType": {
+            "$ref": "#/components/schemas/WordType"
+          },
+          "wordLevel": {
+            "$ref": "#/components/schemas/WordLevel"
+          },
+          "wordCountability": {
+            "$ref": "#/components/schemas/WordCountability"
+          },
+          "wordHalleri": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateVocableDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "word": {
+            "type": "string",
+            "nullable": true
+          },
+          "meanings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "pronunciation": {
+            "type": "string",
+            "nullable": true
+          },
+          "wordType": {
+            "$ref": "#/components/schemas/WordType"
+          },
+          "wordLevel": {
+            "$ref": "#/components/schemas/WordLevel"
+          },
+          "wordCountability": {
+            "$ref": "#/components/schemas/WordCountability"
+          },
+          "wordHalleri": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WordCountability": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "WordLevel": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "WordType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "15usAZ5HiyBgoH+bu8kvxS3rw/qgTKVoSjHEEZ1rz4k=",
+  "Source": "WordApp.Core",
+  "BasePath": "_content/WordApp.Core",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

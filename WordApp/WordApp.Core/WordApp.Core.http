@@ -1,0 +1,6 @@
+@WordApp.Core_HostAddress = http://localhost:5093
+
+GET {{WordApp.Core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
