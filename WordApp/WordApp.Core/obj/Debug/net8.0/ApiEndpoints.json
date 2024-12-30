@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WordApp.Core.Controllers.IdentityController",
+    "Method": "Register",
+    "RelativePath": "api/Identity/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "WordApp.Dtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WordApp.Core.Controllers.VocableController",
     "Method": "CreateAsync",
     "RelativePath": "api/Vocable/CreateAsync",

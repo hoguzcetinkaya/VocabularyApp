@@ -21,3 +21,4 @@ D:\Source\Oguz\VocabularyApp\WordApp\WordApp.Data\obj\Debug\net8.0\WordApp.Data.
 D:\Source\Oguz\VocabularyApp\WordApp\WordApp.Data\obj\Debug\net8.0\refint\WordApp.Data.dll
 D:\Source\Oguz\VocabularyApp\WordApp\WordApp.Data\obj\Debug\net8.0\WordApp.Data.pdb
 D:\Source\Oguz\VocabularyApp\WordApp\WordApp.Data\obj\Debug\net8.0\ref\WordApp.Data.dll
+D:\Source\Oguz\VocabularyApp\WordApp\WordApp.Data\obj\Debug\net8.0\WordApp.Data.csproj.AssemblyReference.cache

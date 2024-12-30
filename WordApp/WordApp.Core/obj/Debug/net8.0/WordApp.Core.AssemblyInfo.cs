@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("cef26e8c-8b72-47cf-86fe-0f3eac0aea63")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordApp.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dde51c61380eaca6983d8abf523b78e4d12b56dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18185e3ea250cc840b3e2f743cdc1c28b43deefe")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordApp.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordApp.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

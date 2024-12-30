@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|d:\\source\\oguz\\vocabularyapp\\wordapp\\wordapp.core\\services\\vocableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|solutionrelative:wordapp.core\\services\\vocableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|d:\\source\\oguz\\vocabularyapp\\wordapp\\wordapp.core\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|solutionrelative:wordapp.core\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|d:\\source\\oguz\\vocabularyapp\\wordapp\\wordapp.core\\mediatr\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|solutionrelative:wordapp.core\\mediatr\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E16EDB6-14D2-4CB7-9717-F1746B96974E}|WordApp.Dtos\\WordApp.Dtos.csproj|d:\\source\\oguz\\vocabularyapp\\wordapp\\wordapp.dtos\\identitydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E16EDB6-14D2-4CB7-9717-F1746B96974E}|WordApp.Dtos\\WordApp.Dtos.csproj|solutionrelative:wordapp.dtos\\identitydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD09FAB-B366-4C4C-9365-7AD724A377E2}|WordApp.Entities\\WordApp.Entities.csproj|d:\\source\\oguz\\vocabularyapp\\wordapp\\wordapp.entities\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD09FAB-B366-4C4C-9365-7AD724A377E2}|WordApp.Entities\\WordApp.Entities.csproj|solutionrelative:wordapp.entities\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|d:\\source\\oguz\\vocabularyapp\\wordapp\\wordapp.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82C32AE7-F697-4DFE-A5F7-5BFEEBEF6BAA}|WordApp.Core\\WordApp.Core.csproj|solutionrelative:wordapp.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3049227-A0C6-4E22-8B1F-35CF867FB275}|WordApp.Data\\WordApp.Data.csproj|d:\\source\\oguz\\vocabularyapp\\wordapp\\wordapp.data\\identitydatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3049227-A0C6-4E22-8B1F-35CF867FB275}|WordApp.Data\\WordApp.Data.csproj|solutionrelative:wordapp.data\\identitydatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VocableService.cs",
-              "DocumentMoniker": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\Services\\VocableService.cs",
-              "RelativeDocumentMoniker": "WordApp.Core\\Services\\VocableService.cs",
-              "ToolTip": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\Services\\VocableService.cs",
-              "RelativeToolTip": "WordApp.Core\\Services\\VocableService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAvwAkAAABEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IdentityDtos.cs",
+              "DocumentMoniker": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Dtos\\IdentityDtos.cs",
+              "RelativeDocumentMoniker": "WordApp.Dtos\\IdentityDtos.cs",
+              "ToolTip": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Dtos\\IdentityDtos.cs",
+              "RelativeToolTip": "WordApp.Dtos\\IdentityDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:03:18.057Z",
+              "WhenOpened": "2024-12-29T18:16:21.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Request.cs",
-              "DocumentMoniker": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\MediatR\\Request.cs",
-              "RelativeDocumentMoniker": "WordApp.Core\\MediatR\\Request.cs",
-              "ToolTip": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\MediatR\\Request.cs",
-              "RelativeToolTip": "WordApp.Core\\MediatR\\Request.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewAsAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IdentityController.cs",
+              "DocumentMoniker": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\Controllers\\IdentityController.cs",
+              "RelativeDocumentMoniker": "WordApp.Core\\Controllers\\IdentityController.cs",
+              "ToolTip": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\Controllers\\IdentityController.cs",
+              "RelativeToolTip": "WordApp.Core\\Controllers\\IdentityController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wBUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:03:18.08Z",
+              "WhenOpened": "2024-12-29T18:14:53.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Word.cs",
+              "DocumentMoniker": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Entities\\Word.cs",
+              "RelativeDocumentMoniker": "WordApp.Entities\\Word.cs",
+              "ToolTip": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Entities\\Word.cs",
+              "RelativeToolTip": "WordApp.Entities\\Word.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAkwFMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:27:43.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityDatas.cs",
+              "DocumentMoniker": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Data\\IdentityDatas.cs",
+              "RelativeDocumentMoniker": "WordApp.Data\\IdentityDatas.cs",
+              "ToolTip": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Data\\IdentityDatas.cs",
+              "RelativeToolTip": "WordApp.Data\\IdentityDatas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:50:17.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\Program.cs",
               "RelativeDocumentMoniker": "WordApp.Core\\Program.cs",
               "ToolTip": "D:\\Source\\Oguz\\VocabularyApp\\WordApp\\WordApp.Core\\Program.cs",
               "RelativeToolTip": "WordApp.Core\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwDUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:42:17.167Z",
+              "WhenOpened": "2024-12-29T16:49:31.466Z",
               "EditorCaption": ""
             }
           ]
