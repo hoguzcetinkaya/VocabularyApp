@@ -1,5 +1,6 @@
 ﻿
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WordApp.Core.Requests;
 using WordApp.Dtos;
@@ -10,6 +11,7 @@ namespace WordApp.Core.Controllers
     [Route("api/[controller]")]
     public class VocableController(IMediator mediator) : Controller, IVocableController
     {
+        [Authorize(Roles = "admin")]
         [HttpGet(nameof(GetAllAsync))]
         public async Task<IEnumerable<ReadVocableDto>> GetAllAsync()
         {

@@ -35,6 +35,7 @@ namespace WordApp.Core
                 mongoIdentityOptions.ConnectionString = "mongodb://localhost:29999/WordApp";
             });
 
+            Console.WriteLine($"BuilderConfiguration Jwt:SecretKey : {builder.Configuration["Jwt:SecretKey"]}");
             builder.Services.AddAuthentication(options =>
             {
                 //Uygulamanın kullanıcıyı doğrulamak için hangi yöntemi kullanacağını belirtir.
@@ -57,11 +58,10 @@ namespace WordApp.Core
             
                     // Token'ın hedef kitleyi (audience) temsil eden bir isim veya adres
                     ValidAudience = "youraudience", // Örn: "https://yourapi.com" (token kimin için geçerli)
-            
+
                     // Token'ın imzasını doğrulamak için kullanılan gizli anahtar
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_secret_key"))
-                    // Önemli: "your_secret_key" yerine güçlü ve gizli bir anahtar kullan!
-                    // Örn: çevrimdışı (offline) bir araçla üretilmiş uzun ve karmaşık bir anahtar.
+                    // HOC -> Hangi anahtarla imzalandıysa onunla doğrulama yapılmalı. YANİ TOKEN ÜRETİLİRKEN KULLANILAN ANAHTARLA DOĞRULAMA YAPILMALI
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"]))
                 };
             });
 

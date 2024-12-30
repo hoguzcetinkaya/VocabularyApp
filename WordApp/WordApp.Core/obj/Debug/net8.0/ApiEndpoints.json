@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "WordApp.Core.Controllers.IdentityController",
+    "Method": "Login",
+    "RelativePath": "api/Identity/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "WordApp.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WordApp.Core.Controllers.IdentityController",
     "Method": "Register",
     "RelativePath": "api/Identity/register",
     "HttpMethod": "POST",
